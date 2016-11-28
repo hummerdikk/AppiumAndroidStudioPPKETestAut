@@ -1,0 +1,4 @@
+rootProject.name = 'kerti'
+include 'AppiumAndroidTests'
+findProject(':AppiumAndroidTests')?.name = 'kerti'
+
